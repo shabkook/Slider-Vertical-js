@@ -7,7 +7,7 @@ let counter = 0;
 function counterSlide(c) {
   console.log(c);
   slide.forEach((elem, index) => {
-    elem.style.transform = `translatex(${(index - c) * 100}%)`;
+    elem.style.transform = `translatey(${(index - c) * 100}%)`;
   });
 }
 
